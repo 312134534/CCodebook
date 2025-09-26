@@ -6,3 +6,5 @@
 *.toc
 formula.pdf
 list.tex
+
+.vscode
