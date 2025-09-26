@@ -1,7 +1,7 @@
 // if the max size of arr is 200000
 vector<ll> arr;
 
-// --------------------------------------------------
+// ------------------------------
 
 // Sparse Table
 const ll lgmx = 17;  // floor(log2(200000))
@@ -18,7 +18,7 @@ ll query(ll l, ll r) {  // O(1)
     return min(rmq[h][l], rmq[h][r - (1 << h) + 1]);
 }
 
-// --------------------------------------------------
+// ------------------------------
 
 // initialize the array
 ll n; cin >> n;
