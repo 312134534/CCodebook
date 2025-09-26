@@ -1,5 +1,3 @@
-using ll = long long;
-
 class vec {
 public:
     ll x, y;
