@@ -19,7 +19,7 @@ for (ll j = 1; j <= wmx; ++j) {
 }
 cout << mx << '\n';
 
-// --------------------------------------------------
+// ------------------------------
 
 // Unbounded
 // just change the inner for loop to the following line

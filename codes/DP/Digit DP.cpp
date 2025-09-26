@@ -28,8 +28,8 @@ ll count(ll pos, bool tight, bool leadingZero, ...) {
 
 count(0, true, true, ...)  // the answer
 
-// ==================================================
-// ==================================================
+// ==============================
+// ==============================
 
 // AtCoder ABC154E
 // Find the number of integers between 1 and N (inclusive)
