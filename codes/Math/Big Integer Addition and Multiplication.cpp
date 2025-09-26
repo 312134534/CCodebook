@@ -6,7 +6,7 @@ vector<int> strToVec(string str, int sz) {
     }
     return r;
 }
-// for example
+// for example:
 // strToVec("677", 4) -> 7 7 6 0
 // strToVec("8829", 4) -> 9 2 8 8
 
