@@ -95,3 +95,15 @@ int divide(int a, int b) {
     }
     return result;
 }
+
+int findUnique(const std::vector<int>& nums) {
+    int unique = 0;
+    for (int num : nums) {
+        unique ^= num; // XOR 相同的數字會抵消
+    }
+    return unique;
+}
+
+int graycode(int n) {// n 轉 Gray code
+    return n ^ (n >> 1);
+}
