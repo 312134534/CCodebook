@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 const int M = 1e9 + 7;
 const int N = 2000005;
 vector<int> fact(N), invfact(N);
